@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js"></script>
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Rock Paper Scissors contest!</h1> 
+    </header>
+    <introduction>
+        <h2>Please choose your weapon to use against the computer!</h2>
+        <section>
+            <h2>Your Current Score:</h2>
+            <section>
+                <h3>Computer: <h3 id=score-pc> </h3></h3>
+                <h3>Player: <h3 id=score-person> </h3></h3>
+            </section>
+        </section>
+    </introduction>
+    <main>
+        <div class="container">
+            <button class="btn btn-square" id="rockBtn">
+            <img src="./pictures/rock.png">
+            <div class="overlay">
+                <div class="text">I will use Rock</div>
+              </div>
+            </button>
+        </div>
+        <div class="container">
+            <button class="btn btn-square" id="paperBtn">
+            <img src="./pictures/paper.png">
+            <div class="overlay">
+                <div class="text">I will use Paper</div>
+              </div>
+            </button>
+        </div>
+        <div class="container">
+            <button class="btn btn-square" id="scissorsBtn">
+            <img src="./pictures/scissors.png">
+            <div class="overlay">
+                <div class="text">I will use Scissors</div>
+              </div>
+            </button>
+        </div>
+    </main>
+    <results>
+        /* Output the result here */
+    </results>
+    <footer>
+        <p>Copyright, Nik F. 2022</p>
+    </footer>
+</body>
+</html>
